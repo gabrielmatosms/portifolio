@@ -22,8 +22,8 @@ import LogoSondaDark from '/public/images/logos/logo-sonda-dark.png';
 import LogoAgrotools from '/public/images/logos/logo-agrotools.png';
 import LogoAgrotoolsDark from '/public/images/logos/logo-agrotools-dark.png';
 import ProjectLibras from '/public/images/libras-page.png';
-import ProjectStop from '/public/images/stop-page.png';
-import ProjectTodo from '/public/images/todo-page.png';
+import ProjectStop from '/public/images/stop-page.jpg';
+import ProjectTodo from '/public/images/todo-page.jpg';
 import ProjectPanela from '/public/images/panelaaberta-page.png';
 import ProjectAdvocacy from '/public/images/santanafelicio-page.png';
 

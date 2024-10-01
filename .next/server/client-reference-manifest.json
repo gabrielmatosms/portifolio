@@ -264,17 +264,17 @@
         "async": false
       }
     },
-    "(app-client)/./public/images/stop-page.png": {
+    "(app-client)/./public/images/stop-page.jpg": {
       "*": {
-        "id": "(sc_client)/./public/images/stop-page.png",
+        "id": "(sc_client)/./public/images/stop-page.jpg",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./public/images/todo-page.png": {
+    "(app-client)/./public/images/todo-page.jpg": {
       "*": {
-        "id": "(sc_client)/./public/images/todo-page.png",
+        "id": "(sc_client)/./public/images/todo-page.jpg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -747,16 +747,16 @@
       ],
       "async": false
     },
-    "/Users/gabrielmatos/Documents/portifolio/public/images/stop-page.png": {
-      "id": "(app-client)/./public/images/stop-page.png",
+    "/Users/gabrielmatos/Documents/portifolio/public/images/stop-page.jpg": {
+      "id": "(app-client)/./public/images/stop-page.jpg",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/gabrielmatos/Documents/portifolio/public/images/todo-page.png": {
-      "id": "(app-client)/./public/images/todo-page.png",
+    "/Users/gabrielmatos/Documents/portifolio/public/images/todo-page.jpg": {
+      "id": "(app-client)/./public/images/todo-page.jpg",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from 'react';
 import { MoonStar, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
@@ -16,9 +15,9 @@ const ThemeSwitcher = () => {
 
   useEffect(() => {
     setMounted(true);
+    setTheme('dark')
   }, []);
 
-  // until the UI is mounted, display a dummy icon
   if (!mounted) {
     return (
       <IconButton>
@@ -35,5 +34,3 @@ const ThemeSwitcher = () => {
 };
 
 export default ThemeSwitcher;
-
-// Ref :: https://www.npmjs.com/package/next-themes#avoid-hydration-mismatch
