@@ -48,11 +48,11 @@ export const NAV_LINKS = [
   },
   {
     label: 'Journey',
-    href: '#work',
+    href: '#journey',
   },
   {
     label: 'Projects',
-    href: '#testimonials',
+    href: '#work',
   },
   {
     label: 'Contact',
