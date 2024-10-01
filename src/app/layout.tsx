@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 
@@ -11,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Gabriel Matos | Full Stack Developer';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from São José dos Campos, Brasil.';
+  'A Full Stack developer who loves to turn ideas into code, from São José dos Campos, Brasil.';
 const url = 'https://gabrielmatos.dev';
 
 export const metadata: Metadata = {
@@ -24,10 +23,10 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Gabriel Matos',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: '(prefers-color-scheme: light)', color: 'white' },
   ],
   icons: {
     icon: '/favicon.ico',
