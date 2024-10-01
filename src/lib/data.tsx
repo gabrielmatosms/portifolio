@@ -35,10 +35,8 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/gamatosms',
-  INSTAGRAM: 'https://instagram.com/shahsagar',
-  LINKEDIN: 'https://linkedin.com/in/shahsagar',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  INSTAGRAM: 'https://instagram.com/gabrielmatosms',
+  LINKEDIN: 'https://linkedin.com/in/gabrielmms',
 };
 
 export const NAV_LINKS = [
@@ -213,7 +211,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Libras Detection',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+      'A Platform to help children with hearing impairment to become literate using an artificial intelligence capable of recognizing LIBRAS (Brazilian Sign Language) gestures.',
     url: 'https://github.com/gamatosms/LibrasDetection',
     previewImage: ProjectLibras,
     technologies: [
@@ -227,7 +225,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Stop Sort',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
+      'A platform designed to help you play the popular Brazilian game STOP, where a random letter is generated for each round.',
     url: 'https://stopsort.vercel.app/',
     previewImage: ProjectStop,
     technologies: [
@@ -240,7 +238,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Just a To-Do',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+      'As the name suggests, it’s a simple TO-DO list web app for organizing your daily tasks.',
     url: 'https://justtodo.vercel.app/',
     previewImage: ProjectTodo,
     technologies: [
@@ -253,7 +251,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Panela Aberta',
     description:
-        'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+        'A blog created for an extension group from the Nutrition course at UNIFESP (Federal University of São Paulo), aimed at helping people gain a better understanding of food.',
     url: 'https://panelaaberta.unifesp.br/',
     previewImage: ProjectPanela,
     technologies: [
@@ -265,7 +263,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Santana Felicio Advocacy',
     description:
-        'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+        'A website developed for a law firm in Brazil, designed to provide information about legal services and facilitate client engagement.',
     url: 'https://santanafelicio.com.br/',
     previewImage: ProjectAdvocacy,
     technologies: [

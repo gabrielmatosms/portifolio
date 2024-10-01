@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Gabriel Matos | Full Stack Developer';
 const description =
-  'A Full Stack developer who loves to turn ideas into code, from São José dos Campos, Brasil.';
+  'A Full Stack developer who loves to turn ideas into code, from São José dos Campos, São Paulo - Brasil.';
 const url = 'https://gabrielmatos.dev';
 
 export const metadata: Metadata = {
@@ -19,9 +19,11 @@ export const metadata: Metadata = {
   description,
   keywords: [
     'Frontend Developer',
+    'Backend Developer',
     'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
+    'Nodejs Developer'
   ],
   creator: 'Gabriel Matos',
   themeColor: [
