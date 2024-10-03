@@ -1,9 +1,9 @@
+import { useState } from 'react';
+import * as Select from '@radix-ui/react-select';
 import brazilFlag from '/public/images/flags/icon-brazil.png';
 import spainFlag from '/public/images/flags/icon-spain.png';
 import usFlag from '/public/images/flags/icon-us.png';
 import Image from 'next/image';
-import { useState } from 'react';
-import * as Select from '@radix-ui/react-select';
 
 const LangSwitch = () => {
   const [selectedFlag, setSelectedFlag] = useState(usFlag);
