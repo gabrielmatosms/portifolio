@@ -5,6 +5,12 @@ import spainFlag from '/public/images/flags/icon-spain.png';
 import usFlag from '/public/images/flags/icon-us.png';
 import Image from 'next/image';
 
+const SelectRoot = Select.Root;
+const SelectTrigger = Select.Trigger;
+const SelectGroup = Select.Group;
+const SelectContent = Select.Content;
+const SelectItem = Select.Item;
+
 const LangSwitch = () => {
   const [selectedFlag, setSelectedFlag] = useState(usFlag);
 
@@ -29,24 +35,24 @@ const LangSwitch = () => {
   
   return (
     <div className="w-10 rounded">
-      <Select.Root defaultValue="en-US" onValueChange={handleSelectChange}>
-        <Select.Trigger className={commonClassTrigger}>
+      <SelectRoot defaultValue="en-US" onValueChange={handleSelectChange}>
+        <SelectTrigger className={commonClassTrigger}>
           <Image src={selectedFlag} alt="Brazil Flag" className="w-8 h-8"  />
-        </Select.Trigger>
-        <Select.Content className="w-full bg-gray shadow-lg rounded-lg">
-          <Select.Group>
-            <Select.Item value="pt-BR" className={commonClassItem}>
+        </SelectTrigger>
+        <SelectContent className="w-full bg-gray shadow-lg rounded-lg">
+          <SelectGroup>
+            <SelectItem value="pt-BR" className={commonClassItem}>
               <Image src={brazilFlag} alt="Brazil Flag" className="w-8 h-8"  />
-            </Select.Item>
-            <Select.Item value="es-ES" className={commonClassItem}>
+            </SelectItem>
+            <SelectItem value="es-ES" className={commonClassItem}>
               <Image src={spainFlag} alt="Spain Flag" className="w-8 h-8" />
-            </Select.Item>
-            <Select.Item value="en-US" className={commonClassItem}>
+            </SelectItem>
+            <SelectItem value="en-US" className={commonClassItem}>
               <Image src={usFlag} alt="US Flag" className="w-8 h-8" />
-            </Select.Item>
-          </Select.Group>
-        </Select.Content>
-      </Select.Root>
+            </SelectItem>
+          </SelectGroup>
+        </SelectContent>
+      </SelectRoot>
     </div>
   );
 };
