@@ -60,7 +60,7 @@ const Header = () => {
           <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
-            <LangSwitcher />
+            {/*<LangSwitcher />*/}
             <DownloadCV />
           </div>
         </div>
@@ -104,10 +104,10 @@ const Header = () => {
                 <Typography>Switch Theme</Typography>
                 <ThemeSwitcher />
               </div>
-              <div className="flex items-center justify-between">
-                <Typography>Switch Language</Typography>
-                <LangSwitcher />
-              </div>
+              {/*<div className="flex items-center justify-between">*/}
+              {/*  <Typography>Switch Language</Typography>*/}
+              {/*  <LangSwitcher />*/}
+              {/*</div>*/}
               <DownloadCV />
             </div>
           </DrawerContent>
