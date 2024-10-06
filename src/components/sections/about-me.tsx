@@ -30,39 +30,29 @@ const AboutMeSection = () => {111
         {/* Content */}
         <div className="flex max-w-xl flex-col gap-6">
           <Typography variant="h3">
-            Want to know more? Check it out:
+            Curious about me? Here’s a glimpse:
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            who specializes in full stack development. I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life.
+            I’m a dedicated full-stack developer, passionate about bringing both the technical and visual aspects of digital products to life.
           </Typography>
           <Typography>
-            I began my journey as an intern software developer in 2018, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, C#,
-            Tailwindcss, postgres and much more.
+            My journey started in <strong>2018</strong> as a software development intern, and since then, I've been growing and evolving, continuously embracing new challenges and technologies. 
+            Today, I build cutting-edge web applications using modern tools like Next.js, TypeScript, C#, Tailwind CSS, PostgreSQL, and more.
           </Typography>
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            enjoying some free time playing video game or enjoying a beautiful sunset. You can follow
-            me on{' '}
+            Outside of development, I enjoy playing video games or unwinding while watching a beautiful sunset. Feel free to check out my {' '}
             <Link
               noCustomization
               externalLink
               withUnderline
               href={EXTERNAL_LINKS.GITHUB}
             >
-              GitHub
+              <strong>Github</strong>
             </Link>
             .
           </Typography>
           <Typography>
-            I&apos;m available for new opportunities, so feel free
-            to reach me out! 😉
+            I'm open to new opportunities, so don’t hesitate to reach out! 😉
           </Typography>
         </div>
       </div>

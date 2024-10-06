@@ -31,11 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer with a focus
-              on developing exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 4 years, I still love it as if it was something new.
+              As a full-stack developer, I specialize in crafting exceptional digital experiences that are fast, accessible, visually engaging, and fully responsive. With <strong>over 4 years</strong> of experience building web applications, my passion for development remains as strong as when I first started.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
@@ -51,7 +47,7 @@ const HeroSection = () => {
                   <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500"></span>
                 </span>
               </div>
-              <Typography>Available for new projects</Typography>
+              <Typography>Available for new projects & ideas</Typography>
             </div>
           </div>
           <SocialIcons />
