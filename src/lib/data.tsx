@@ -61,7 +61,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/gamatosms',
+    url: 'https://github.com/gabrielmatosms',
   },
   {
     icon: Instagram,
@@ -212,7 +212,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Libras Detection',
     description:
       'A Platform to help children with hearing impairment to become literate using an artificial intelligence capable of recognizing LIBRAS (Brazilian Sign Language) gestures.',
-    url: 'https://github.com/gamatosms/LibrasDetection',
+    url: 'https://github.com/gabrielmatosms/LibrasDetection',
     previewImage: ProjectLibras,
     technologies: [
       'React',
