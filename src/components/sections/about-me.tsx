@@ -36,7 +36,7 @@ const AboutMeSection = () => {111
             I’m a dedicated full-stack developer, passionate about bringing both the technical and visual aspects of digital products to life.
           </Typography>
           <Typography>
-            My journey started in <strong>2018</strong> as a software development intern, and since then, I've been growing and evolving, continuously embracing new challenges and technologies. 
+            My journey started in <strong>2019</strong> as a software development intern, and since then, I've been growing and evolving, continuously embracing new challenges and technologies. 
             Today, I build cutting-edge web applications using modern tools like Next.js, TypeScript, C#, Tailwind CSS, PostgreSQL, and more.
           </Typography>
           <Typography>

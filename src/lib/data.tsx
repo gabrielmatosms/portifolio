@@ -34,7 +34,7 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/gamatosms',
+  GITHUB: 'https://github.com/gabrielmatosms',
   INSTAGRAM: 'https://instagram.com/gabrielmatosms',
   LINKEDIN: 'https://linkedin.com/in/gabrielmms',
 };
