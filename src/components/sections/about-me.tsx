@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import SagarFullPose from '/public/images/imagem_perfil.jpeg';
+import SagarFullPose from '/public/images/imagem_perfil.png';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';

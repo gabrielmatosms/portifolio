@@ -164,7 +164,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Agrotools logo',
     position: 'Software Developer',
     startDate: new Date(2023, 0),
-    currentlyWorkHere: true,
+    endDate: new Date(2025, 0),
+    currentlyWorkHere: false,
     summary: [
       'Developed functionalities in the front-end layer in applications aimed at agribusiness, using technologies such as Vuejs,\n' +
       'Javascript, Jquery, and Axios.',
