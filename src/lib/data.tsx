@@ -1,276 +1,254 @@
-import { Github, Instagram, Linkedin } from 'lucide-react';
+import { Github, Instagram, Linkedin } from "lucide-react";
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
-import Logocsharp from '/public/images/logos/icon-csharp.svg';
-import LogoJest from '/public/images/logos/icon-jest.svg';
-import LogoVue from '/public/images/logos/icon-vue.svg';
-import LogoAzure from '/public/images/logos/icon-azure.svg';
-import LogoDocker from '/public/images/logos/icon-docker.svg';
-import LogoSonda from '/public/images/logos/logo-sonda.png';
-import LogoSondaDark from '/public/images/logos/logo-sonda-dark.png';
-import LogoAgrotools from '/public/images/logos/logo-agrotools.png';
-import LogoAgrotoolsDark from '/public/images/logos/logo-agrotools-dark.png';
-import ProjectLibras from '/public/images/libras-page.png';
-import ProjectStop from '/public/images/stop-page.jpg';
-import ProjectTodo from '/public/images/todo-page.jpg';
-import ProjectPanela from '/public/images/panelaaberta-page.png';
-import ProjectAdvocacy from '/public/images/santanafelicio-page.png';
+import LogoJavascript from "/public/images/logos/icon-javascript.svg";
+import LogoTypescript from "/public/images/logos/icon-typescript.svg";
+import LogoReact from "/public/images/logos/icon-react.svg";
+import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
+import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
+import LogoExpress from "/public/images/logos/icon-express.svg";
+import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
+import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
+import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
+import LogoSass from "/public/images/logos/icon-sass.svg";
+import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
+import LogoGit from "/public/images/logos/icon-git.svg";
+import Logocsharp from "/public/images/logos/icon-csharp.svg";
+import LogoJest from "/public/images/logos/icon-jest.svg";
+import LogoVue from "/public/images/logos/icon-vue.svg";
+import LogoAzure from "/public/images/logos/icon-azure.svg";
+import LogoDocker from "/public/images/logos/icon-docker.svg";
+import LogoSonda from "/public/images/logos/logo-sonda.png";
+import LogoSondaDark from "/public/images/logos/logo-sonda-dark.png";
+import LogoAgrotools from "/public/images/logos/logo-agrotools.png";
+import LogoAgrotoolsDark from "/public/images/logos/logo-agrotools-dark.png";
+import ProjectLibras from "/public/images/libras-page.png";
+import ProjectStop from "/public/images/stop-page.jpg";
+import ProjectTodo from "/public/images/todo-page.jpg";
+import ProjectPanela from "/public/images/panelaaberta-page.png";
+import ProjectAdvocacy from "/public/images/santanafelicio-page.png";
+import EmbraerLogoWhite from "/public/images/logos/EmbraerLogoWhite.png";
+import EmbraerLogoBlue from "/public/images/logos/EmbraerLogo.png";
 
-import {
-  ExperienceDetails,
-  ProjectDetails,
-  TechDetails,
-} from '@/lib/types';
+import { ExperienceDetails, ProjectDetails, TechDetails } from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/gabrielmatosms',
-  INSTAGRAM: 'https://instagram.com/gabrielmatosms',
-  LINKEDIN: 'https://linkedin.com/in/gabrielmms',
+  GITHUB: "https://github.com/gabrielmatosms",
+  INSTAGRAM: "https://instagram.com/gabrielmatosms",
+  LINKEDIN: "https://linkedin.com/in/gabrielmms",
 };
 
 export const NAV_LINKS = [
   {
-    label: 'About',
-    href: '#about',
+    label: "About",
+    href: "#about",
   },
   {
-    label: 'Journey',
-    href: '#journey',
+    label: "Journey",
+    href: "#journey",
   },
   {
-    label: 'Projects',
-    href: '#work',
+    label: "Projects",
+    href: "#work",
   },
   {
-    label: 'Contact',
-    href: '#contact',
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/gabrielmatosms',
+    url: "https://github.com/gabrielmatosms",
   },
   {
     icon: Instagram,
-    url: 'https://instagram.com/gabrielmatosms',
+    url: "https://instagram.com/gabrielmatosms",
   },
   {
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/gabrielmms',
+    url: "https://www.linkedin.com/in/gabrielmms",
   },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Javascript',
+    label: "Javascript",
     logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    label: 'Typescript',
+    label: "Typescript",
     logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
+    url: "https://www.typescriptlang.org/",
   },
   {
-    label: 'Node.js',
+    label: "Node.js",
     logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
+    url: "https://nodejs.org/en",
   },
   {
-    label: 'C#',
+    label: "C#",
     logo: Logocsharp,
-    url: 'https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/',
+    url: "https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/",
   },
   {
-    label: 'React',
+    label: "React",
     logo: LogoReact,
-    url: 'https://react.dev/',
+    url: "https://react.dev/",
   },
   {
-    label: 'Next.js',
+    label: "Next.js",
     logo: LogoNextjs,
-    url: 'https://nextjs.org/',
+    url: "https://nextjs.org/",
   },
   {
-    label: 'Vue',
+    label: "Vue",
     logo: LogoVue,
-    url: 'https://vuejs.org/',
+    url: "https://vuejs.org/",
   },
   {
-    label: 'Express.js',
+    label: "Express.js",
     logo: LogoExpress,
     darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
+    url: "https://expressjs.com/",
   },
   {
-    label: 'Docker',
+    label: "Docker",
     logo: LogoDocker,
-    url: 'https://www.docker.com/',
+    url: "https://www.docker.com/",
   },
   {
-    label: 'PostgreSQL',
+    label: "PostgreSQL",
     logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
+    url: "https://www.postgresql.org/",
   },
   {
-    label: 'MongoDB',
+    label: "MongoDB",
     logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
+    url: "https://www.mongodb.com/",
   },
   {
-    label: 'Sass/Scss',
+    label: "Sass/Scss",
     logo: LogoSass,
-    url: 'https://sass-lang.com/',
+    url: "https://sass-lang.com/",
   },
   {
-    label: 'Tailwindcss',
+    label: "Tailwindcss",
     logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
+    url: "https://tailwindcss.com/",
   },
   {
-    label: 'Azure',
+    label: "Azure",
     logo: LogoAzure,
-    url: 'https://azure.microsoft.com/pt-br/',
+    url: "https://azure.microsoft.com/pt-br/",
   },
   {
-    label: 'Jest',
+    label: "Jest",
     logo: LogoJest,
-    url: 'https://jestjs.io/pt-BR/',
+    url: "https://jestjs.io/pt-BR/",
   },
   {
-    label: 'Git',
+    label: "Git",
     logo: LogoGit,
-    url: 'https://git-scm.com/',
-  }
+    url: "https://git-scm.com/",
+  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
+    logo: EmbraerLogoBlue,
+    darkModeLogo: EmbraerLogoWhite,
+    logoAlt: "embraer logo",
+    position: "DevOps Analyst",
+    startDate: new Date(2025, 2),
+    currentlyWorkHere: true,
+    summary: ["A lot of things to do, but I can't say much about it yet."],
+    link: "https://www.embraer.com/",
+  },
+  {
     logo: LogoAgrotoolsDark,
     darkModeLogo: LogoAgrotools,
-    logoAlt: 'Agrotools logo',
-    position: 'Software Developer',
+    logoAlt: "Agrotools logo",
+    position: "Software Developer",
     startDate: new Date(2023, 0),
     endDate: new Date(2025, 0),
     currentlyWorkHere: false,
     summary: [
-      'Developed functionalities in the front-end layer in applications aimed at agribusiness, using technologies such as Vuejs,\n' +
-      'Javascript, Jquery, and Axios.',
-      'Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary\n' +
-      'licenses using .net 6, PostgreSQL, and Azure cloud technologies that serve daily license requests.',
-      'I excel in extracting insights and knowledge from datasets. Using Python and pandas library to create data frames and\n' +
-      'Postgres to store all analyzed data.'
+      "Developed functionalities in the front-end layer in applications aimed at agribusiness, using technologies such as Vuejs,\n" +
+        "Javascript, Jquery, and Axios.",
+      "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary\n" +
+        "licenses using .net 6, PostgreSQL, and Azure cloud technologies that serve daily license requests.",
+      "I excel in extracting insights and knowledge from datasets. Using Python and pandas library to create data frames and\n" +
+        "Postgres to store all analyzed data.",
     ],
+    link: "https://www.agrotools.com.br/",
   },
   {
     logo: LogoSonda,
     darkModeLogo: LogoSondaDark,
-    logoAlt: 'Sonda logo',
-    position: 'Software Developer',
-    startDate: new Date(2021, 0),
+    logoAlt: "Sonda logo",
+    position: "Software Developer",
+    startDate: new Date(2019, 8),
     endDate: new Date(2022, 11),
     summary: [
-      'Engineered advanced front-end functionalities for aviation applications using Javascript, React, and Angular; improved\n' +
-      'user experience and performance, leading to a 40% increase in user engagement and satisfaction.',
-      'Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary\n' +
-      'licenses using Java, PostgreSQL, Oracle, RabbitMQ, and Heroku cloud technologies that serve millions of license requests\n' +
-      'daily.',
-      'Infrastructure maintenance in the context of JBOSS typically entails managing and ensuring the stability and reliability of\n' +
-      'the JBOSS application server.'
+      "Engineered advanced front-end functionalities for aviation applications using Javascript, React, and Angular; improved\n" +
+        "user experience and performance, leading to a 40% increase in user engagement and satisfaction.",
+      "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary\n" +
+        "licenses using Java, PostgreSQL, Oracle, RabbitMQ, and Heroku cloud technologies that serve millions of license requests\n" +
+        "daily.",
+      "Infrastructure maintenance in the context of JBOSS typically entails managing and ensuring the stability and reliability of\n" +
+        "the JBOSS application server.",
     ],
-  },
-  {
-    logo: LogoSonda,
-    darkModeLogo: LogoSondaDark,
-    logoAlt: 'Sonda logo',
-    position: 'Software Developer - Intern',
-    startDate: new Date(2019, 8),
-    endDate: new Date(2020, 11),
-    summary: [
-        'Enhanced software applications using Java and JavaScript, resulting in a 25% increase in performance; ensured robust\n' +
-    'security protocols and handled SQL database queries to maintain 99.9% data integrity.',
-    'Creating and executing specific database queries and transactions within the SAP (Systems, Applications, and Products)\n' +
-    'Material Management module.'
-    ],
+    link: "https://www.sonda.com/",
   },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Libras Detection',
+    name: "Libras Detection",
     description:
-      'A Platform to help children with hearing impairment to become literate using an artificial intelligence capable of recognizing LIBRAS (Brazilian Sign Language) gestures.',
-    url: 'https://github.com/gabrielmatosms/LibrasDetection',
+      "A Platform to help children with hearing impairment to become literate using an artificial intelligence capable of recognizing LIBRAS (Brazilian Sign Language) gestures.",
+    url: "https://github.com/gabrielmatosms/LibrasDetection",
     previewImage: ProjectLibras,
     technologies: [
-      'React',
-      'Javascript',
-      'React Bootstrap',
-      'Tensorflow.js',
-      'Express.js'
+      "React",
+      "Javascript",
+      "React Bootstrap",
+      "Tensorflow.js",
+      "Express.js",
     ],
   },
   {
-    name: 'Stop Sort',
+    name: "Stop Sort",
     description:
-      'A platform designed to help you play the popular Brazilian game STOP, where a random letter is generated for each round.',
-    url: 'https://stopsort.vercel.app/',
+      "A platform designed to help you play the popular Brazilian game STOP, where a random letter is generated for each round.",
+    url: "https://stopsort.vercel.app/",
     previewImage: ProjectStop,
-    technologies: [
-      'HTML',
-      'CSS',
-      'Javascript',
-      'Vercel'
-    ],
+    technologies: ["HTML", "CSS", "Javascript", "Vercel"],
   },
   {
-    name: 'Just a To-Do',
+    name: "Just a To-Do",
     description:
-      'As the name suggests, it’s a simple TO-DO list web app for organizing your daily tasks.',
-    url: 'https://justtodo.vercel.app/',
+      "As the name suggests, it’s a simple TO-DO list web app for organizing your daily tasks.",
+    url: "https://justtodo.vercel.app/",
     previewImage: ProjectTodo,
-    technologies: [
-      'HTML',
-      'Tailwind',
-      'Javascript',
-      'Vercel'
-    ],
+    technologies: ["HTML", "Tailwind", "Javascript", "Vercel"],
   },
   {
-    name: 'Panela Aberta',
+    name: "Panela Aberta",
     description:
-        'A blog created for an extension group from the Nutrition course at UNIFESP (Federal University of São Paulo), aimed at helping people gain a better understanding of food.',
-    url: 'https://panelaaberta.unifesp.br/',
+      "A blog created for an extension group from the Nutrition course at UNIFESP (Federal University of São Paulo), aimed at helping people gain a better understanding of food.",
+    url: "https://panelaaberta.unifesp.br/",
     previewImage: ProjectPanela,
-    technologies: [
-      'Wordpress',
-      'Elementor',
-      'Hostinger'
-    ],
+    technologies: ["Wordpress", "Elementor", "Hostinger"],
   },
   {
-    name: 'Santana Felicio Advocacy',
+    name: "Santana Felicio Advocacy",
     description:
-        'A website developed for a law firm in Brazil, designed to provide information about legal services and facilitate client engagement.',
-    url: 'https://santanafelicio.com.br/',
+      "A website developed for a law firm in Brazil, designed to provide information about legal services and facilitate client engagement.",
+    url: "https://santanafelicio.com.br/",
     previewImage: ProjectAdvocacy,
-    technologies: [
-      'Wordpress',
-      'Elementor',
-      'Hostinger'
-    ],
+    technologies: ["Wordpress", "Elementor", "Hostinger"],
   },
 ];

@@ -1,4 +1,4 @@
-import type { StaticImageData } from 'next/image';
+import type { StaticImageData } from "next/image";
 
 export type TechDetails = {
   logo: string | StaticImageData;
@@ -16,6 +16,7 @@ export type ExperienceDetails = {
   startDate: Date;
   endDate?: Date;
   summary: string[];
+  link: string;
 };
 
 export type ProjectDetails = {
