@@ -26,8 +26,8 @@ import ProjectStop from "/public/images/stop-page.jpg";
 import ProjectTodo from "/public/images/todo-page.jpg";
 import ProjectPanela from "/public/images/panelaaberta-page.png";
 import ProjectAdvocacy from "/public/images/santanafelicio-page.png";
-import EmbraerLogoWhite from "/public/images/logos/EmbraerLogoWhite.png";
-import EmbraerLogoBlue from "/public/images/logos/EmbraerLogo.png";
+import EmbraerLogoWhite from "/public/images/logos/embraerLogoWhite.png";
+import EmbraerLogoBlue from "/public/images/logos/embraerLogo.png";
 
 import { ExperienceDetails, ProjectDetails, TechDetails } from "@/lib/types";
 
