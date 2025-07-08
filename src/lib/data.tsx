@@ -160,10 +160,19 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: EmbraerLogoBlue,
     darkModeLogo: EmbraerLogoWhite,
     logoAlt: "embraer logo",
-    position: "DevOps Analyst",
+    position: "DevOps Coordinator",
     startDate: new Date(2025, 2),
     currentlyWorkHere: true,
-    summary: ["A lot of things to do, but I can't say much about it yet."],
+    summary: [
+      "Coordinated a third-party software quality team, ensuring compliance with international standards and increasing \n" +
+        "quality audit approval rates by 30%. /n" +
+        "Managed licenses for critical tools such as SonarQube, Nexus, and the Atlassian suite (Jira, Confluence, Bitbucket) , \n" +
+        "ensuring legal compliance and cost efficiency. \n" +
+        "Optimized CI/CD pipelines, reducing average deployment time by 35% and ensuring faster and more reliable deliveries \n" +
+        "across development teams. \n" +
+        "Lead continuous improvement initiatives in software development processes, implementing practices that boosted \n" +
+        "productivity and reduced rework.",
+    ],
     link: "https://www.embraer.com/",
   },
   {
