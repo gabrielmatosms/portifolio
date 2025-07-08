@@ -165,12 +165,12 @@ export const EXPERIENCES: ExperienceDetails[] = [
     currentlyWorkHere: true,
     summary: [
       "Coordinated a third-party software quality team, ensuring compliance with international standards and increasing \n" +
-        "quality audit approval rates by 30%. /n" +
-        "Managed licenses for critical tools such as SonarQube, Nexus, and the Atlassian suite (Jira, Confluence, Bitbucket) , \n" +
-        "ensuring legal compliance and cost efficiency. \n" +
-        "Optimized CI/CD pipelines, reducing average deployment time by 35% and ensuring faster and more reliable deliveries \n" +
-        "across development teams. \n" +
-        "Lead continuous improvement initiatives in software development processes, implementing practices that boosted \n" +
+        "quality audit approval rates by 30%.",
+      "Managed licenses for critical tools such as SonarQube, Nexus, and the Atlassian suite (Jira, Confluence, Bitbucket) , \n" +
+        "ensuring legal compliance and cost efficiency.",
+      "Optimized CI/CD pipelines, reducing average deployment time by 35% and ensuring faster and more reliable deliveries \n" +
+        "across development teams. \n",
+      "Lead continuous improvement initiatives in software development processes, implementing practices that boosted \n" +
         "productivity and reduced rework.",
     ],
     link: "https://www.embraer.com/",
