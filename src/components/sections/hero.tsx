@@ -31,11 +31,17 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              As a full-stack developer, I specialize in crafting exceptional
-              digital experiences that are fast, accessible, visually engaging,
-              and fully responsive. With <strong>over 4 years</strong> of
-              experience building web applications, my passion for development
-              remains as strong as when I first started.
+              With over <strong>6 years</strong> of experience as a full-stack
+              developer, I’ve built digital experiences that are fast,
+              accessible, visually engaging, and fully responsive. While my
+              foundation is in hands-on development, over time I’ve increasingly
+              taken on responsibilities beyond coding—coordinating teams,
+              aligning technical work with business goals, and ensuring projects
+              are delivered with both quality and strategy in mind. This
+              transition into project management allows me to combine my
+              technical expertise with leadership and organizational skills,
+              bridging the gap between engineering execution and business
+              outcomes.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
